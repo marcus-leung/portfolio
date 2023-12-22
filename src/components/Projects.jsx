@@ -40,6 +40,7 @@ const Projects = () => {
           langs="Javascript | HTML | CSS"
           tools="React.js | Tailwind | Github"
           link="https://github.com/marcus-leung/portfolio"
+          site="marcusleung.net"
         />
       </div>
     </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import ucsc from "../assets/ucsc.png";
+import deanza from "../assets/deanza.png";
 
 const Education = () => {
   return (
@@ -7,14 +9,17 @@ const Education = () => {
         Education
       </h1>
       <div>
-        <div className="flex justify-between">
-          <h2 className="text-xl font-semibold">
-            University of California, Santa Cruz
-          </h2>
+        <div className="flex justify-between items-center">
+          <div className="flex items-center">
+            <img src={ucsc} alt="UCSC Logo" className="h-10 w-10" />
+            <h2 className="text-xl font-semibold pl-2">
+              University of California, Santa Cruz
+            </h2>
+          </div>
           <h3>Sep 2023 - Jun 2025</h3>
         </div>
         <h3>
-          Bachelor of Science (B.S) in Technology and Information Management{" "}
+          Bachelor of Science (B.S) in Technology and Information Management
           <br />
           Minor in Computer Science <br />
           Expected Graduation: June 2025 <br />
@@ -30,8 +35,11 @@ const Education = () => {
         </ul>
       </div>
       <div>
-        <div className="flex justify-between mt-6">
-          <h2 className="text-xl font-semibold">De Anza College</h2>
+        <div className="flex justify-between mt-6 items-center">
+          <div className="flex items-center">
+            <img src={deanza} alt="De Anza Logo" className="h-9 w-9"/>
+            <h2 className="text-xl font-semibold pl-2">De Anza College</h2>
+          </div>
           <h3>Jun 2021 - Aug 2022</h3>
         </div>
         <h3>GPA: 3.96</h3>
