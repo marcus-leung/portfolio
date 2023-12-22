@@ -9,14 +9,14 @@ const Education = () => {
         Education
       </h1>
       <div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center flex-col sm:flex-row">
           <div className="flex items-center">
             <img src={ucsc} alt="UCSC Logo" className="h-10 w-10" />
             <h2 className="text-xl font-semibold pl-2">
               University of California, Santa Cruz
             </h2>
           </div>
-          <h3>Sep 2023 - Jun 2025</h3>
+          <h3 className="my-1">Sep 2023 - Jun 2025</h3>
         </div>
         <h3>
           Bachelor of Science (B.S) in Technology and Information Management
@@ -35,12 +35,12 @@ const Education = () => {
         </ul>
       </div>
       <div>
-        <div className="flex justify-between mt-6 items-center">
+        <div className="flex justify-between mt-6 items-center flex-col sm:flex-row">
           <div className="flex items-center">
             <img src={deanza} alt="De Anza Logo" className="h-9 w-9"/>
             <h2 className="text-xl font-semibold pl-2">De Anza College</h2>
           </div>
-          <h3>Jun 2021 - Aug 2022</h3>
+          <h3 className="my-1">Jun 2021 - Aug 2022</h3>
         </div>
         <h3>GPA: 3.96</h3>
         <h2 className="font-semibold mt-3">Relevant Coursework:</h2>
