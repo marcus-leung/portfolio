@@ -36,7 +36,7 @@ const Navbar = () => {
           </a>
           <a
             onClick={handleNav}
-            href="#project"
+            href="#projects"
             className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-blue-100 shadow-indigo-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <FaRegFolderOpen size={20} />
