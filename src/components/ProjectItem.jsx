@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import Dropdown from "./Dropdown";
 
-const ProjectItem = ({ img, title, langs, tools, link, site }) => {
+const ProjectItem = ({ img, title, link, site, descriptions }) => {
   const hasSite = site && site !== "";
 
   return (
@@ -33,8 +34,13 @@ const ProjectItem = ({ img, title, langs, tools, link, site }) => {
         ) : (
           ""
         )}
-        <h2 className="flex justify-center items-center">{langs}</h2>
-        <h2 className="flex justify-center items-center">{tools}</h2>
+        {/* must be written this way to make sure desciptions is defined or else it will cause an error from trying to access overview from an undefined object */}
+        {descriptions && (
+          <Dropdown subject="Overview" text={descriptions.overview} />
+        )}
+        {descriptions && <Dropdown subject="Technology/languages used" text={descriptions.tech} />}
+        {descriptions && <Dropdown subject="Key Features" text={descriptions.features} />}
+        {descriptions && <Dropdown subject="What it achieved" text={descriptions.achieve} />}
       </div>
     </div>
   );

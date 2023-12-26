@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.content-transition {
+  transition: height ease 0.6s;
 }

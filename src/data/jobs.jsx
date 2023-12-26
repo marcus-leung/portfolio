@@ -15,7 +15,7 @@ const jobs = [
     {
         date: 'Aug 2021',
         company: 'Amazon',
-        role: 'Associate',
+        role: 'Seasonal Associate',
         duration: '4 mos',
         details: {
             'Order Fulfillment': 'Assembled customer orders accurately and efficiently',
