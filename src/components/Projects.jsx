@@ -9,7 +9,7 @@ import data from "../data/projectdesc";
 const Projects = () => {
 
   return (
-    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id="projects" className="max-w-[950px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-indigo-800 mb-5 pb-5">
         Projects
       </h1>
@@ -23,7 +23,7 @@ const Projects = () => {
         />
         <ProjectItem
           img={Stock}
-          title="Stock Market Analysis Tool"
+          title="Stock Market Analysis and Visualization Application"
           link="https://github.com/marcus-leung/stockmarketanalysistool"
           descriptions={data[1]}
         />

@@ -7,7 +7,7 @@
 const projectdesc = [
   {
     overview:
-      "The website serves as an informative platform for the club, showcasing details about the club itself, past events, research papers, and a helpful FAQ section. It offers a user-friendly interface for easy navigation and access to diverse club-related information.",
+      "The website serves as an informative platform for the investment club, showcasing details about the club itself, past events, research papers, and a helpful FAQ section. It offers a user-friendly interface for easy navigation and access to diverse club-related information.",
     tech: [
       "Utilized HTML and CSS for structuring and styling the website's content and layout",
       "Integrated React.js to develop reusable components, enabling efficient rendering of content",
@@ -21,7 +21,7 @@ const projectdesc = [
     achieve: [
       "Improved accessibility to club information, resulting in heightened member involvement and attendance in events and meetings",
       "Enhanced the club's overall online presence and reputation, attracting potential new members and generating interest among the college community",
-      "Accumulated notable online traffic with more than 125 unique visitors and logged over 600 event counts",
+      "Accumulated notable online traffic with more than 125 unique visitors and logged over 600 event counts in the first quarter",
     ],
   },
   {
@@ -47,7 +47,7 @@ const projectdesc = [
   },
   {
     overview:
-      "A website designed to identify objects through the camera feed, utilizing machine learning algorithms to classify items into compost, recycling, or landfill categories.",
+      "A website designed to identify objects through the camera feed, utilizing machine learning algorithms to classify items into compost, recycling, or landfill categories. This was created during a 3 day hackathon event at UC Santa Cruz.",
     tech: [
       "Flask used as the primary web framework for building the website.",
       "Scikit-learn (sklearn) was utilized to implement a machine learning model for classifying detected items",

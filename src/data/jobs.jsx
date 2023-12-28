@@ -5,11 +5,12 @@ const jobs = [
         role: 'Engineering Intern',
         duration: '8 mos',
         details: {
+            'Script Development': 'Crafted customized demonstration and test scripts specifically tailored to assess the functionalities of sensors and LED lights',
+            'Arduino Library Interaction': 'Implemented and utilized various Arduino libraries',
             '3D Modeling': 'Created a 3D environment from a floor plan image using Sketchup',
             'Debugging': 'Diagnosed and resolved issues in the smart home IoT device using Arduino and VS Code IDE',
-            'Testing': 'Conducted thorough testing of sensors and LED lights through Arduino\'s serial monitor',
             'Documentation': 'Utilized version control on Github to push updates, track changes, and document progress',
-            'Presentation': 'Recorded and presented an LED light demo for ASME event at UCI',
+            'Presentation': 'Recorded and presented an LED light demo for ASME event at UC Irvine',
         }
     },
     {
@@ -29,7 +30,7 @@ const jobs = [
         role: 'Tea Barista',
         duration: '1 yr 2 mos',
         details: {
-            'Customer Service': 'Welcomed, took orders, and addressed customer inquiries',
+            'Customer Service': 'Welcomed, took orders, and addressed customer inquiries in the cafe',
             'Teamwork': 'Collaborated with coworkers during peak times',
             'Quality Control': 'Ensured consistent drink quality',
         }
