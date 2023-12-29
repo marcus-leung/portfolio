@@ -28,7 +28,7 @@ const Main = () => {
               <FaGithub className="cursor-pointer" size={32} />
             </a>
           </div>
-          <h2 className="mt-5 mr-2 pr-5 text-xl text-indigo-800 font-medium">Technology driven student looking to diversify his skill sets and gain work experience through a Summer 2024 internship</h2>
+          <h2 className="mt-5 mr-2 pr-5 text-xl text-indigo-800 font-medium">Seeking a summer tech-related internship as a Technology and Information Management student at UC Santa Cruz, on track to graduate in June 2025</h2>
         </div>
         <div className="flex-1 order-1 sm:order-2">
           <img
