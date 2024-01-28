@@ -2,7 +2,7 @@ const jobs = [
     {
         date: 'Apr 2021',
         company: 'Phorena',
-        role: 'Engineering Intern',
+        role: 'Engineering Intern (Unpaid)',
         duration: '8 mos',
         details: {
             'Script Development': 'Crafted customized demonstration and test scripts specifically tailored to assess the functionalities of sensors and LED lights',

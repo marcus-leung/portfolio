@@ -81,6 +81,26 @@ const projectdesc = [
       "Improved online presence by providing a professional platform for showcasing my expertise, potentially attracting opportunities and networking",
     ],
   },
+  {
+    overview:
+      "SlugHug, a 2nd place Health Hack winner and Axure sponsorship winner at CruzHacks 2024, is a therapeutic messaging platform fostering meaningful, secure communication through sentiment-analyzed messages",
+    tech: [
+      "Developed using the MERN (MongoDB Atlas, Express.js, React.js, Node.js) stack",
+      "Robust back-end functionalities integrated with an engaging front-end",
+      "Leveraged Axure for UI/UX design, ensuring a visually appealing and cohesive user interface.",
+      "Integrated Tailwind CSS for streamlined and efficient styling, ensuring a visually cohesive design across the platform.",
+    ],
+    features: [
+      "Aesthetically pleasing design with bubbly characters",
+      "Advance sentiment analysis using Meaning Cloud to filter troll/negative messages",
+      "Unique one-time response system",
+    ],
+    achieve: [
+      "Demonstrated teamwork by collaboratively developing SlugHug, earning 2nd place in the Health Hack category at CruzHacks 2024",
+      "Recognized for adaptability, learning new technologies, and successfully integrating diverse skills within a team setting",
+      "Attracted Axure sponsorship, acknowledging design and prototyping excellence.",
+    ]
+  }
 ];
 
 export default projectdesc;

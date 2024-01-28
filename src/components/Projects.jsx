@@ -2,7 +2,8 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import SFIG from "../assets/sfig.png";
 import Stock from "../assets/stock.png";
-import CruzHacks from "../assets/cruzhacks.jpg";
+import CruzHacks23 from "../assets/cruzhacks23.jpg";
+import CruzHacks24 from "../assets/cruzhacks24.png";
 import Portfolio from "../assets/port.png";
 import data from "../data/projectdesc";
 
@@ -28,17 +29,24 @@ const Projects = () => {
           descriptions={data[1]}
         />
         <ProjectItem
-          img={CruzHacks}
-          title="CruzHacks 2023: Garbage Guide"
-          link="https://github.com/marcus-leung/GarbageGuide"
-          descriptions={data[2]}
-        />
+          img={CruzHacks24}
+          title="CruzHacks 2024: SlugHug"
+          link="https://github.com/marcus-leung/SlugHug"
+          site="slughug.us"
+          descriptions={data[4]}
+          />
         <ProjectItem
           img={Portfolio}
           title="Portfolio Website"
           link="https://github.com/marcus-leung/portfolio"
           site="marcusleung.net"
           descriptions={data[3]}
+        />
+        <ProjectItem
+          img={CruzHacks23}
+          title="CruzHacks 2023: Garbage Guide"
+          link="https://github.com/marcus-leung/GarbageGuide"
+          descriptions={data[2]}
         />
       </div>
     </div>
