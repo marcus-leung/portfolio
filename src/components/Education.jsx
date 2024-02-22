@@ -33,6 +33,13 @@ const Education = () => {
           <li>CSE 120 - Computer Architecture</li>
           <li>CSE 182 - Database Management Systems</li>
         </ul>
+
+        <h2 className="font-semibold mt-3">Affiliations and involvements:</h2>
+        <ul className="my-2 pl-6">
+          <li>Slug Fund Investment Group (SFIG)</li>
+          <li>Computer Networking Student Assoiciation (CNSA)</li>
+          <li>Students in Network Engineering (SiNE)</li>
+        </ul>
       </div>
       <div>
         <div className="flex justify-between mt-6 items-center flex-col sm:flex-row">
@@ -50,6 +57,10 @@ const Education = () => {
           <li>
             CIS 21JA - x86 Processor Assembly Language and Computer Architecture
           </li>
+        </ul>
+        <h2 className="font-semibold mt-3">Affiliations and involvements:</h2>
+        <ul className="my-2 pl-6">
+          <li>Developers' Guild</li>
         </ul>
       </div>
     </div>

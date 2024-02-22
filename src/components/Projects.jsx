@@ -9,7 +9,7 @@ import data from "../data/projectdesc";
 const Projects = () => {
 
   return (
-    <div id="projects" className="max-w-[950px] m-auto p-4 py-16">
+    <div id="projects" className="max-w-[950px] m-auto p-4 py-10">
       <h1 className="text-4xl font-bold text-center text-indigo-800 mb-5 pb-5">
         Projects
       </h1>
@@ -32,14 +32,14 @@ const Projects = () => {
           title="CruzHacks 2024: SlugHug"
           link="https://github.com/marcus-leung/SlugHug"
           site="slughug.us"
-          descriptions={data[4]}
+          descriptions={data[3]}
           />
         <ProjectItem
           img={Portfolio}
           title="Portfolio Website"
           link="https://github.com/marcus-leung/portfolio"
           site="marcusleung.net"
-          descriptions={data[3]}
+          descriptions={data[2]}
         />
       </div>
     </div>

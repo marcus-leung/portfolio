@@ -21,7 +21,7 @@ const projectdesc = [
     achieve: [
       "Improved accessibility to club information, resulting in heightened member involvement and attendance in events and meetings",
       "Enhanced the club's overall online presence and reputation, attracting potential new members and generating interest among the college community",
-      "Accumulated notable online traffic with more than 125 unique visitors and logged over 600 event counts in the first quarter",
+      "Accumulated notable online traffic with more than 225 unique visitors and logged over 1,500 event counts to date",
     ],
   },
   {

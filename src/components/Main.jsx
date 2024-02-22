@@ -4,7 +4,7 @@ import profile from "../assets/profile.jpg";
 
 const Main = () => {
   return (
-    <div id="main" className="max-w-[1040px] m-auto p-4 py-16">
+    <div id="main" className="max-w-[1040px] m-auto p-4 py-20">
       <div className="flex flex-col sm:flex-row items-center">
         <div className="flex-1 p-5 pr-0 m-4 order-2 sm:order-1 text-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-indigo-800 items-center">
