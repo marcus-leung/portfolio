@@ -47,24 +47,6 @@ const projectdesc = [
   },
   {
     overview:
-      "A website designed to identify objects through the camera feed, utilizing machine learning algorithms to classify items into compost, recycling, or landfill categories. This was created during a 3 day hackathon event at UC Santa Cruz.",
-    tech: [
-      "Flask used as the primary web framework for building the website.",
-      "Scikit-learn (sklearn) was utilized to implement a machine learning model for classifying detected items",
-      "OpenAI API was integrated to enable a chatbot, facilitating user interaction and providing answers to queries related to waste disposal",
-      "OpenCV (cv2) was employed to access the camera in real time",
-    ],
-    features: [
-      "Real-time object detection and classified into compost, recycling, or landfill categories",
-      "Interactive chatbot, powered by the OpenAI API, was available to offer guidance and answer user queries regarding waste disposal",
-    ],
-    achieve: [
-      "Users were empowered to make informed decisions about waste disposal, thereby contributing to improved waste management practices",
-      "The platform provided users with valuable information on proper waste categorization, promoting environmentally friendly habits",
-    ],
-  },
-  {
-    overview:
       "My portfolio website serves as a comprehensive showcase of my professional background, featuring sections for experience, education, projects, and a messaging system for direct communication.",
     tech: [
       "Built with a stack comprising HTML, CSS, and JavaScript for core functionality and interactivity",

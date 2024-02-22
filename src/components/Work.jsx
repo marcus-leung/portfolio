@@ -4,7 +4,7 @@ import jobs from "../data/jobs";
 
 const Work = () => {
   return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 md:py-16 hide">
+    <div id="work" className="max-w-[1040px] m-auto p-4 md:py-16 hide">
       <h1 className="text-4xl font-bold text-center text-indigo-800 pb-5">
         Work Experience
       </h1>
