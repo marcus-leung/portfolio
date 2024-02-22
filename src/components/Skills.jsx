@@ -43,7 +43,7 @@ const Skills = () => {
             text="Bootstrap"
           />
           <SkillItem
-            link="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            link="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
             text="Tailwind"
           />
           <SkillItem
