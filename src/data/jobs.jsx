@@ -8,8 +8,6 @@ const jobs = [
             'Script Development': 'Crafted customized demonstration and test scripts specifically tailored to assess the functionalities of sensors and LED lights',
             'Arduino Library Interaction': 'Implemented and utilized various Arduino libraries',
             '3D Modeling': 'Created a 3D environment from a floor plan image using Sketchup, serving as a VR environment for product rendering',
-            'Debugging': 'Diagnosed and resolved issues in the smart home IoT device using Arduino and VS Code IDE',
-            'Documentation': 'Utilized version control on Github to push updates, track changes, and document progress',
             'Presentation': 'Recorded and presented an LED light demo for ASME event at UC Irvine',
         }
     },
