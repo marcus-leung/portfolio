@@ -22,3 +22,7 @@ My portfolio website serves as a comprehensive showcase of my professional backg
 - Skills: Explore my skills and expertise in various technologies.
 - Contact: Get in touch with me through the provided contact information.
 - Device Compatibility: Friendly for mobile and desktop devices
+
+## Deployment
+- Github Pages
+- To update, commit changes to main branch and run "npm run deploy"
