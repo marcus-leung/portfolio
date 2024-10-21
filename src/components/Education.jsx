@@ -16,14 +16,13 @@ const Education = () => {
               University of California, Santa Cruz
             </h2>
           </div>
-          <h3 className="my-1">Sep 2023 - Jun 2025</h3>
+          <h3 className="my-1">Sep 2023 - Jun 2025 (Expected)</h3>
         </div>
         <h3>
           Bachelor of Science (B.S) in Technology and Information Management
           <br />
           Minor in Computer Science <br />
-          Expected Graduation: June 2025 <br />
-          GPA: 3.92
+          GPA: 3.82
           <br />
         </h3>
         <h2 className="font-semibold mt-3">Relevant Coursework:</h2>

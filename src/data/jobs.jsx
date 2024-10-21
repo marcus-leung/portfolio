@@ -1,38 +1,49 @@
 const jobs = [
-    {
-        date: 'Apr 2021',
-        company: 'Phorena',
-        role: 'Engineering Intern (Unpaid)',
-        duration: '8 mos',
-        details: {
-            'Script Development': 'Crafted customized demonstration and test scripts specifically tailored to assess the functionalities of sensors and LED lights',
-            'Arduino Library Interaction': 'Implemented and utilized various Arduino libraries',
-            '3D Modeling': 'Created a 3D environment from a floor plan image using Sketchup, serving as a VR environment for product rendering',
-            'Presentation': 'Recorded and presented an LED light demo for ASME event at UC Irvine',
-        }
-    },
-    {
-        date: 'Aug 2021',
-        company: 'Amazon',
-        role: 'Seasonal Associate',
-        duration: '4 mos',
-        details: {
-            'Order Fulfillment': 'Assembled customer orders accurately and efficiently',
-            'Quality Check': 'Ensured products met quality standards',
-            'Packaging': 'Safely and efficiently packaged goods',
-        }
-    },
-    {
-        date: 'Aug 2021',
-        company: 'Boba Drive',
-        role: 'Tea Barista',
-        duration: '1 yr 2 mos',
-        details: {
-            'Customer Service': 'Welcomed, took orders, and addressed customer inquiries in the cafe',
-            'Teamwork': 'Collaborated with coworkers during peak times',
-            'Quality Control': 'Ensured consistent drink quality',
-        }
-    },
-]
+  {
+    date: 'Jun 2024',
+    company: 'Sikka.ai',
+    role: 'Business Development Intern',
+    duration: '5 mos',
+    details: [
+      '- Conducted B2B product demonstrations to prospective clients, highlighting API functionality and integration capabilities, resulting in a 15% increase in demo-to-deal conversion',
+      '- Generated and qualified over 2500 leads through targeted outreach, A/B testing, and strategic prospecting, contributing to a 20% growth in the sales pipeline',
+      '- Collaborated with marketing, legal, and development teams to refine outreach strategies, negotiate contracts, and address integration needs, improving operational efficiency in the sales process',
+    ],
+  },
+  {
+    date: 'Apr 2024',
+    company: 'UCSC Computer Networking Student Association',
+    role: 'President',
+    duration: 'present',
+    details: [
+      '- Led and managed a team of 8 officers, overseeing strategic planning and ensuring smooth club operations',
+      '- Directed the coordination and execution of diverse activities such as labs, guest speaker sessions, and special projects',
+      '- Hosted and facilitated informative and interactive weekly meetings',
+      "- Boosted the club's online presence through strategic promotion on Instagram, LinkedIn, and Discord",
+    ],
+  },
+  {
+    date: 'Jun 2023',
+    company: 'Slug Fund Investment Group',
+    role: 'Web Developer | Officer of External Affairs',
+    duration: '1 yr',
+    details: [
+      "- Independently developed and deployed the entire club's website using React.js and Bootstrap",
+      '- Accumulated more than 500 unique visitors and logged over 3,200 event counts to date',
+      '- Managed and oversaw social media accounts on platforms like Instagram, Twitter/X, LinkedIn, and Discord, actively driving increased engagement and fostering community growth',
+    ],
+  },
+  {
+    date: 'Apr 2021',
+    company: 'Phorena',
+    role: 'Engineering Intern (Unpaid)',
+    duration: '8 mos',
+    details: [
+      '- Crafted customized demonstration and test scripts, tailored to assess the functionalities of sensors and LED lights, while implementing and utilizing various Arduino libraries',
+      '- Created a 3D environment from a floor plan image using Sketchup, serving as a VR environment for product rendering',
+      '- Recorded and presented an LED color demo for ASME event at UC Irvine',
+    ],
+  },
+];
 
 export default jobs;

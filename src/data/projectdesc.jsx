@@ -47,24 +47,6 @@ const projectdesc = [
   },
   {
     overview:
-      "My portfolio website serves as a comprehensive showcase of my professional background, featuring sections for experience, education, projects, and a messaging system for direct communication.",
-    tech: [
-      "Built with a stack comprising HTML, CSS, and JavaScript for core functionality and interactivity",
-      "Utilized Tailwind CSS for efficient and customizable styling, ensuring a visually appealing and responsive layout.",
-      "Integrated React.js to develop reusable components, enabling efficient rendering of content",
-    ],
-    features: [
-      "Integrated a messaging system allowing visitors to send inquiries or messages directly",
-      "Clearly defined segments to showcase my professional journey, educational background, and highlight my key projects with relevant details",
-      "Ensured responsive design to guarantee seamless access and navigation across various devices, including mobile phones",
-    ],
-    achieve: [
-      "Offered a comprehensive view of my skills and accomplishments in an organized and visually appealing manner",
-      "Improved online presence by providing a professional platform for showcasing my expertise, potentially attracting opportunities and networking",
-    ],
-  },
-  {
-    overview:
       "SlugHug, a 2nd place Health Hack winner and Axure sponsorship winner at CruzHacks 2024, is a therapeutic messaging platform fostering meaningful, secure communication through sentiment-analyzed messages",
     tech: [
       "Developed using the MERN (MongoDB Atlas, Express.js, React.js, Node.js) stack",

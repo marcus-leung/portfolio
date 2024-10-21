@@ -3,7 +3,6 @@ import ProjectItem from "./ProjectItem";
 import SFIG from "../assets/sfig.png";
 import Stock from "../assets/stock.png";
 import CruzHacks24 from "../assets/cruzhacks24.png";
-import Portfolio from "../assets/port.png";
 import data from "../data/projectdesc";
 
 const Projects = () => {
@@ -32,15 +31,8 @@ const Projects = () => {
           title="CruzHacks 2024: SlugHug"
           link="https://github.com/marcus-leung/SlugHug"
           site="slughug.us"
-          descriptions={data[3]}
-          />
-        <ProjectItem
-          img={Portfolio}
-          title="Portfolio Website"
-          link="https://github.com/marcus-leung/portfolio"
-          site="marcusleung.net"
           descriptions={data[2]}
-        />
+          />
       </div>
     </div>
   );

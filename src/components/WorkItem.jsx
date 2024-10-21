@@ -19,9 +19,9 @@ const WorkItem = ({ date, company, role, duration, details }) => {
           </span>
         </p>
         <ul>
-          {Object.entries(details).map(([subject, desc]) => (
+          {details.map((desc) => (
             <li>
-              <span className="font-semibold">{subject}:</span>&nbsp;{desc}
+              <span>{desc}</span>
             </li>
           ))}
         </ul>
