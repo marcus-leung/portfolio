@@ -13,7 +13,7 @@ const jobs = [
   {
     date: 'Apr 2024',
     company: 'UCSC Computer Networking Student Association',
-    role: 'President',
+    role: 'Vice President',
     duration: 'present',
     details: [
       '- Led and managed a team of 8 officers, overseeing strategic planning and ensuring smooth club operations',
