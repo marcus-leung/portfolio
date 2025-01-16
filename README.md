@@ -18,6 +18,7 @@ My portfolio website serves as a comprehensive showcase of my professional backg
 ## Features
 
 - Work Experience: Discover my professional history, exploring past roles and the diverse array of responsibilities I undertook throughout my career journey.
+- Leadership & Extracurricular Activities: Displays my experience in clubs and activites.
 - Projects: View my latest projects with descriptions.
 - Skills: Explore my skills and expertise in various technologies.
 - Contact: Get in touch with me through the provided contact information.

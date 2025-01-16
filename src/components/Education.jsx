@@ -22,7 +22,7 @@ const Education = () => {
           Bachelor of Science (B.S) in Technology and Information Management
           <br />
           Minor in Computer Science <br />
-          GPA: 3.82
+          GPA: 3.8
           <br />
         </h3>
         <h2 className="font-semibold mt-3">Relevant Coursework:</h2>

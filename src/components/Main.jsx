@@ -1,40 +1,46 @@
-import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "../assets/profile.jpg";
+import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import profile from '../assets/profile.jpg';
 
 const Main = () => {
   return (
-    <div id="main" className="max-w-[1040px] m-auto p-4 py-20">
-      <div className="flex flex-col sm:flex-row items-center">
-        <div className="flex-1 p-5 pr-0 m-4 order-2 sm:order-1 text-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-indigo-800 items-center">
+    <div id='main' className='max-w-[1040px] m-auto p-4 py-20'>
+      <div className='flex flex-col sm:flex-row items-center'>
+        <div className='flex-1 p-5 pr-0 m-4 order-2 sm:order-1 text-center'>
+          <h1 className='sm:text-5xl text-4xl font-bold text-indigo-800 items-center'>
             Hi I'm Marcus Leung
           </h1>
-          <div className="flex justify-between pt-7 w-full">
-            <a
-              href="https://www.linkedin.com/in/marcus-leung-582006252/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-32"
-            >
-              <FaLinkedin className="cursor-pointer" size={32} />
-            </a>
-            <a
-              href="https://github.com/marcus-leung"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mr-32"
-            >
-              <FaGithub className="cursor-pointer" size={32} />
-            </a>
-          </div>
-          <h2 className="mt-5 mr-2 pr-5 text-xl text-indigo-800 font-medium">I'm a Technology and Information Management student at UC Santa Cruz, graduating in June 2025, with experience in business development and a strong technical foundation. I’m looking for tech-related internships or new grad roles where I can apply my skills in API sales, product demonstrations, and software development to contribute to innovative teams.</h2>
+          <h2 className='mt-5 mr-2 pr-5 text-xl text-indigo-800 font-medium'>
+            I am a Technology and Information Management student with a Computer
+            Science minor at UC Santa Cruz graduating in June 2025. I have a
+            strong technical foundation and experience in software development,
+            API sales, and product development. I am eager to join innovative
+            teams and deliver impactful solutions.
+            <div className='flex justify-between pt-7 w-full text-black'>
+              <a
+                href='https://www.linkedin.com/in/marcus-leung-582006252/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='ml-32'
+              >
+                <FaLinkedin className='cursor-pointer' size={32} />
+              </a>
+              <a
+                href='https://github.com/marcus-leung'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='mr-32'
+              >
+                <FaGithub className='cursor-pointer' size={32} />
+              </a>
+            </div>
+          </h2>
         </div>
-        <div className="flex-1 order-1 sm:order-2">
+        <div className='flex-1 order-1 sm:order-2'>
           <img
             src={profile}
-            alt="Profile Picture"
-            className="rounded-3xl shadow-lg shadow-slate-600 border border-black"
+            alt='Profile Picture'
+            className='rounded-3xl shadow-lg shadow-slate-600 border border-black'
           />
         </div>
       </div>
