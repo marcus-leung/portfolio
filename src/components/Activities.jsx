@@ -4,7 +4,7 @@ import clubs from '../data/clubs';
 
 const Activities = () => {
   return (
-    <div id='activities' className='max-w-[1040px] m-auto p-4 md:py-16 hide'>
+    <section id='activities' className='max-w-[1040px] m-auto p-4 md:py-16 hide'>
       <h1 className='text-4xl font-bold text-center text-indigo-800 pb-5'>
         Leadership & Extracurricular Activities
       </h1>
@@ -18,7 +18,7 @@ const Activities = () => {
           details={item.details}
         />
       ))}
-    </div>
+    </section>
   );
 };
 

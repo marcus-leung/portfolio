@@ -4,7 +4,7 @@ import deanza from "../assets/deanza.png";
 
 const Education = () => {
   return (
-    <div id="education" className="max-w-[1040px] m-auto p-4 py-16">
+    <section id="education" className="max-w-[1040px] m-auto p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-indigo-800 pb-5">
         Education
       </h1>
@@ -63,7 +63,7 @@ const Education = () => {
           <li>Developers' Guild</li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

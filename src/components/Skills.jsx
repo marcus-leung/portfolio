@@ -3,7 +3,7 @@ import SkillItem from "./SkillItem";
 
 const Skills = () => {
   return (
-    <div id="skills" className="max-w-[860px] m-auto py-16">
+    <section id="skills" className="max-w-[860px] m-auto py-16">
       <h1 className="text-4xl font-bold text-center text-indigo-800 pb-5">
         Skills
         <div className="grid grid-cols-2 pt-6 font-normal font-mono text-xl md:text-2xl">
@@ -64,7 +64,7 @@ const Skills = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -8,7 +8,7 @@ import data from "../data/projectdesc";
 const Projects = () => {
 
   return (
-    <div id="projects" className="max-w-[950px] m-auto p-4 py-10">
+    <section id="projects" className="max-w-[950px] m-auto p-4 py-10">
       <h1 className="text-4xl font-bold text-center text-indigo-800 mb-5 pb-5">
         Projects
       </h1>
@@ -34,7 +34,7 @@ const Projects = () => {
           descriptions={data[2]}
           />
       </div>
-    </div>
+    </section>
   );
 };
 

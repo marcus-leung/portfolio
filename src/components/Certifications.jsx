@@ -3,7 +3,7 @@ import CCP from '../assets/AWS_CCP.png';
 
 const Certifications = () => {
   return (
-    <div id='certifications' className='max-w-[1040px] m-auto p-4 py-20'>
+    <section id='certifications' className='max-w-[1040px] m-auto p-4 py-20'>
       <div className='flex flex-col sm:flex-row items-center'>
         <div className='flex ml-5'>
           <img
@@ -30,7 +30,7 @@ const Certifications = () => {
           </h2>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
