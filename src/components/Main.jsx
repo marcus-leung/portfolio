@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import profile from '../assets/profile.jpg';
+import profile from '../assets/pfp.jpg';
 
 const Main = () => {
   return (
@@ -12,10 +12,9 @@ const Main = () => {
           </h1>
           <h2 className='mt-5 mr-2 pr-5 text-xl text-indigo-800 font-medium'>
             I am a Technology and Information Management student with a Computer
-            Science minor at UC Santa Cruz graduating in June 2025. I have a
+            Science minor at UC Santa Cruz, graduating in June 2025. I have a
             strong technical foundation and experience in software development,
-            API sales, and product development. I am eager to join innovative
-            teams and deliver impactful solutions.
+            API sales, and product development, looking for a full time opportunity. 
             <div className='flex justify-between pt-7 w-full text-black'>
               <a
                 href='https://www.linkedin.com/in/marcus-leung-582006252/'
