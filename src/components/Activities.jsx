@@ -8,9 +8,9 @@ const Activities = () => {
       <h1 className='text-4xl font-bold text-center text-indigo-800 pb-5'>
         Leadership & Extracurricular Activities
       </h1>
-      {clubs.map((item, id) => (
+      {clubs.map((item, index) => (
         <ActivitiesItem
-          key={id}
+          key={index}
           date={item.date}
           company={item.company}
           role={item.role}

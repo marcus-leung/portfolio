@@ -8,9 +8,9 @@ const Work = () => {
       <h1 className="text-4xl font-bold text-center text-indigo-800 pb-5">
         Work Experience
       </h1>
-      {jobs.map((item, id) => (
+      {jobs.map((item, index) => (
         <WorkItem
-          key={id}
+          key={index}
           date={item.date}
           company={item.company}
           role={item.role}

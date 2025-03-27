@@ -23,7 +23,7 @@ const Certifications = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <button class='bg-indigo-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-3'>
+              <button className='bg-indigo-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-3'>
                 Show Credentials
               </button>
             </a>

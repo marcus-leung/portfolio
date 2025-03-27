@@ -19,8 +19,8 @@ const ActivitiesItem = ({ date, company, role, duration, details }) => {
           </span>
         </p>
         <ul>
-          {details.map((desc) => (
-            <li>
+          {details.map((desc, index) => (
+            <li key={index}>
               <span>{desc}</span>
             </li>
           ))}
