@@ -23,7 +23,7 @@ const Sidebar = () => {
   }, []);
 
   return (
-    <div className="fixed left-4 top-1/2 transform -translate-y-1/2 space-y-4 text-sm hidden sm:block">
+    <div className="fixed left-4 top-1/2 transform -translate-y-1/2 space-y-4 text-sm hidden xl:block">
       <a
         href="#main"
         className={`block py-2 px-3 ${activeLink === "main" ? "text-indigo-800 underline" : "text-gray-600"}`}

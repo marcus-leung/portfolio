@@ -28,9 +28,11 @@ const Education = () => {
         <h2 className="font-semibold mt-3">Relevant Coursework:</h2>
         <ul className="my-2 pl-6">
           <li>CSE 101 - Data Structures and Algorithms</li>
-          <li>CSE 150 - Computer Networks</li>
+          <li>CSE 151 - Advanced Computer Networks</li>
+          <li>CSE 153 - Network Security and Privacy</li>
           <li>CSE 120 - Computer Architecture</li>
           <li>CSE 182 - Database Management Systems</li>
+          <li>TIM172A/B - Management of Technology</li>
         </ul>
 
         <h2 className="font-semibold mt-3">Affiliations and involvements:</h2>
