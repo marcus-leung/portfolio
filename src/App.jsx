@@ -6,12 +6,10 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
-import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <div>
-      {/* <Sidebar /> */}
       <Main />
       <Work />
       <Activities />

@@ -6,7 +6,7 @@ const jobs = [
     duration: '5 mos',
     details: [
       '- Conducted B2B product demonstrations to prospective clients, highlighting API functionality and integration capabilities, resulting in a 15% increase in demo-to-deal conversion',
-      '- Generated and qualified over 2500 leads through targeted outreach, A/B testing, and strategic prospecting, contributing to a 20% growth in the sales pipeline',
+      '- Generated and qualified over 2,500 leads through targeted outreach, A/B testing, and strategic prospecting, contributing to a 20% growth in the sales pipeline',
       '- Collaborated with marketing, legal, and development teams to refine outreach strategies, negotiate contracts, and address integration needs, improving operational efficiency in the sales process',
     ],
   },

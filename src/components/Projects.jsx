@@ -29,6 +29,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4">
+        
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">My Projects</h2>
           <div className="w-20 h-1 mx-auto bg-indigo-600 mb-6"></div>
