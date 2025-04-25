@@ -5,9 +5,13 @@ import deanza from "../assets/deanza.png";
 const Education = () => {
   return (
     <section id="education" className="max-w-[1040px] m-auto p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-indigo-800 pb-5">
-        Education
-      </h1>
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Education</h2>
+          <div className="w-20 h-1 mx-auto bg-indigo-600 mb-6"></div>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Explore my academic journey, the knowledge I’ve gained through my studies, and my active involvement in various affiliations and clubs. Each experience reflects my dedication to learning, growth, and collaboration in the field of technology.
+          </p>
+        </div>
       <div>
         <div className="flex justify-between items-center flex-col sm:flex-row">
           <div className="flex items-center">

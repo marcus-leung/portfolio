@@ -7,10 +7,10 @@ const Main = () => {
     <section id='main' className='max-w-[1040px] m-auto p-4 py-20'>
       <div className='flex flex-col sm:flex-row items-center'>
         <div className='flex-1 p-5 pr-0 m-4 order-2 sm:order-1 text-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-indigo-800 items-center'>
+          <h1 className='sm:text-5xl text-4xl font-bold text-gray-900 items-center'>
             Hi I'm Marcus Leung
           </h1>
-          <h2 className='mt-5 mr-2 pr-5 text-xl text-indigo-800 font-medium'>
+          <h2 className='mt-5 mr-2 pr-5 text-xl text-gray-600 font-medium'>
             I am a Technology and Information Management student with a Computer
             Science minor at UC Santa Cruz, graduating in June 2025. I have a
             strong technical foundation and experience in software development,

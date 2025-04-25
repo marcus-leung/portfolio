@@ -13,10 +13,10 @@ const Certifications = () => {
           />
         </div>
         <div className='flex-1 text-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-indigo-800 text-center'>
+          <h1 className='sm:text-5xl text-4xl font-bold text-gray-900 text-center'>
             AWS Certified Cloud Practitioner
           </h1>
-          <h2 className='mt-5 text-xl text-indigo-800 font-medium'>
+          <h2 className='mt-5 text-xl text-gray-600 font-medium'>
             Issued March 2024 - Expires March 2027 <br />
             <a
               href='https://www.credly.com/badges/eee23d1a-072f-4c70-9a14-2ad01b01f654'
