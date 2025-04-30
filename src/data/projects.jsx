@@ -132,7 +132,7 @@ const projects = [
         "Clean and accessible UI that encourages thoughtful user engagement",
       ],
       achieve: [
-        "Won Best Social Justice Hack at HackDavis 2025",
+        "Won Best Creative Hack at HackDavis 2025",
         "Created a meaningful tool to raise awareness and promote ethical purchasing habits",
         "Successfully integrated cutting-edge tools into a functional, intuitive product",
       ],
