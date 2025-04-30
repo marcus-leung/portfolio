@@ -177,7 +177,7 @@ const projects = [
     id: 5,
     title: 'SunnyViews',
     description:
-      'SunnyViews is a web application that predicts stock and cryptocurrency prices using machine learning. Built with a React.js frontend and FastAPI backend, it provides users with a sleek interface to forecast market trends and visualize predictions, all containerized with Docker and hosted on AWS Fargate.',
+      'A web application that predicts stock and cryptocurrency prices using machine learning. Built with a React.js frontend and FastAPI backend, it provides users with a sleek interface to forecast market trends and visualize predictions, all containerized with Docker and hosted on AWS Fargate.',
     img: SunnyViewsImage,
     links: {},
     featured: false,
@@ -192,7 +192,7 @@ const projects = [
     ],
     details: {
       overview:
-        'SunnyViews is a market prediction platform that allows users to forecast the future prices of stocks and cryptocurrencies.',
+        'A web application that predicts stock and cryptocurrency prices using machine learning. Built with a React.js frontend and FastAPI backend, it provides users with a sleek interface to forecast market trends and visualize predictions, all containerized with Docker and hosted on AWS Fargate.',
       tech: [
         'Developed a responsive frontend using React.js and styled with Tailwind CSS for a modern, user-friendly interface',
         'Implemented the backend using FastAPI to serve machine learning models and process prediction requests efficiently',

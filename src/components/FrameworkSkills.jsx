@@ -25,13 +25,13 @@ const FrameworkSkills = () => {
           link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg'
           text='Node.js'
         />
-                   <SkillItem
+        <SkillItem
              link="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
              text="Bootstrap"
            />
         <SkillItem
-          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg'
-          text='Docker'
+          link="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+          text='Next.js'
         />
 
       </div>

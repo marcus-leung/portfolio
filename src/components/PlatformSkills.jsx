@@ -18,16 +18,16 @@ const PlatformSkills = () => {
           text='Github'
         />
         <SkillItem
+          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg'
+          text='Docker'
+        />
+        <SkillItem
           link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg'
           text='Jira'
         />
         <SkillItem
           link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg'
           text='Figma'
-        />
-        <SkillItem
-          link='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg'
-          text='Arduino'
         />
         <SkillItem
           link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg'
