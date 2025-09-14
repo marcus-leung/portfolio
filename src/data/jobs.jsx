@@ -1,6 +1,6 @@
 const jobs = [
   {
-    date: 'Jan 2023',
+    date: 'Jun 2025',
     company: 'Sikka.ai',
     role: 'HubSpot Integration Intern',
     duration: 'Present',
