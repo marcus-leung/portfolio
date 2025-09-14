@@ -20,13 +20,13 @@ const Education = () => {
               University of California, Santa Cruz
             </h2>
           </div>
-          <h3 className="my-1">Sep 2023 - Jun 2025 (Expected)</h3>
+          <h3 className="my-1">Sep 2023 - Jun 2025</h3>
         </div>
         <h3>
           Bachelor of Science (B.S) in Technology and Information Management
           <br />
           Minor in Computer Science <br />
-          GPA: 3.8
+          GPA: 3.81
           <br />
         </h3>
         <h2 className="font-semibold mt-3">Relevant Coursework:</h2>
@@ -44,7 +44,6 @@ const Education = () => {
           <li>Computer Networking Student Assoiciation (CNSA)</li>
           <li>Slug Fund Investment Group (SFIG)</li>
           <li>Association for Computing Machinery (ACM)</li>
-          <li>Students in Network Engineering (SiNE)</li>
         </ul>
       </div>
       <div>

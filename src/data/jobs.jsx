@@ -1,5 +1,16 @@
 const jobs = [
   {
+    date: 'Jan 2023',
+    company: 'Sikka.ai',
+    role: 'HubSpot Integration Intern',
+    duration: 'Present',
+    details: [
+      '- Lead integration planning, data mapping, testing, and implementation to enhance HubSpot CRM functionality and support core business operations',
+      '- Built custom HubSpot integrations to sync key data from the company’s dental software product, ensuring centralized and reliable access to up-to-date customer information',
+      '- Designed and implemented custom UI components with HubSpot’s UI Extension SDK to deliver intuitive data visualizations and streamline workflows for internal users'
+    ]
+  },
+  {
     date: 'Jun 2024',
     company: 'Sikka.ai',
     role: 'Business Development Intern',

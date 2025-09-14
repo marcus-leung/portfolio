@@ -30,8 +30,8 @@ const FrameworkSkills = () => {
              text="Bootstrap"
            />
         <SkillItem
-          link="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-          text='Next.js'
+          link="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
+          text='FastAPI'
         />
 
       </div>

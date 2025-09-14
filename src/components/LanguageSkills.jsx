@@ -18,8 +18,8 @@ const LanguageSkills = () => {
           text='JavaScript'
         />
         <SkillItem
-          link='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
-          text='Java'
+          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg'
+          text='TypeScript'
         />
         <SkillItem
           link='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg'
@@ -30,8 +30,8 @@ const LanguageSkills = () => {
           text='C'
         />
         <SkillItem
-          link='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
-          text='HTML'
+          link='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
+          text='Java'
         />
       </div>
     </div>
