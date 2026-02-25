@@ -26,12 +26,12 @@ const PlatformSkills = () => {
           text='Jira'
         />
         <SkillItem
-          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg'
-          text='Figma'
+          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/argocd/argocd-original-wordmark.svg'
+          text='ArgoCD'
         />
         <SkillItem
-          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg'
-          text='VS Code'
+          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg'
+          text='MongoDB'
         />
       </div>
     </div>

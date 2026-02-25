@@ -27,3 +27,5 @@ My portfolio website serves as a comprehensive showcase of my professional backg
 ## Deployment
 - Github Pages
 - To update, commit changes to main branch and run "npm run deploy"
+
+Note: Icons from https://devicon.dev/

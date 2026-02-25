@@ -1,9 +1,17 @@
 const jobs = [
   {
+    date: 'Nov 2025',
+    company: 'Sikka.ai',
+    role: 'DevOps Engineer',
+    duration: 'Present',
+    details: [
+    ]
+  },
+  {
     date: 'Jun 2025',
     company: 'Sikka.ai',
     role: 'HubSpot Integration Intern',
-    duration: 'Present',
+    duration: '5 mos',
     details: [
       '- Lead integration planning, data mapping, testing, and implementation to enhance HubSpot CRM functionality and support core business operations',
       '- Built custom HubSpot integrations to sync key data from the company’s dental software product, ensuring centralized and reliable access to up-to-date customer information',

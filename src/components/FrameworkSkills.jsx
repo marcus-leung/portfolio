@@ -18,8 +18,8 @@ const FrameworkSkills = () => {
           text='Tailwind'
         />
         <SkillItem
-          link='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
-          text='Git'
+          link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg'
+          text='Next.js'
         />
         <SkillItem
           link='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg'
