@@ -13,9 +13,9 @@ const Certifications = () => {
           />
         </div>
         <div className='flex-1 text-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-gray-900 text-center'>
+          <h2 className='sm:text-5xl text-4xl font-bold text-gray-900 text-center'>
             AWS Certified Cloud Practitioner
-          </h1>
+          </h2>
           <h2 className='mt-5 text-xl text-gray-600 font-medium'>
             Issued March 2024 - Expires March 2027 <br />
             <a

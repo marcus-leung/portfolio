@@ -5,6 +5,9 @@ const jobs = [
     role: 'DevOps Engineer',
     duration: 'Present',
     details: [
+      '- Developing a RAG-based AI system to automate customer email triage and responses, built on and deployed to Kubernetes',
+      '- Built a production Next.js AI feature for dental practitioners that uses tool calling to query internal APIs and surface relevant data',
+      '- Streamlined internal development workflows by building automations with GitHub Actions and AWS Lambda',
     ]
   },
   {

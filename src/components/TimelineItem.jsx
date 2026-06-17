@@ -1,6 +1,6 @@
 import React from "react";
 
-const WorkItem = ({ date, company, role, duration, details }) => {
+const TimelineItem = ({ date, company, role, duration, details }) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
       <li className="mb-10 ml-4">
@@ -30,4 +30,4 @@ const WorkItem = ({ date, company, role, duration, details }) => {
   );
 };
 
-export default WorkItem;
+export default TimelineItem;

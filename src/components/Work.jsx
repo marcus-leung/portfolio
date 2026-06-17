@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkItem from './WorkItem';
+import TimelineItem from './TimelineItem';
 import jobs from '../data/jobs';
 
 const Work = () => {
@@ -17,7 +17,7 @@ const Work = () => {
         </p>
       </div>
       {jobs.map((item, index) => (
-        <WorkItem
+        <TimelineItem
           key={index}
           date={item.date}
           company={item.company}

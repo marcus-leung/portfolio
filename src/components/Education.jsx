@@ -41,7 +41,7 @@ const Education = () => {
 
         <h2 className="font-semibold mt-3">Affiliations and involvements:</h2>
         <ul className="my-2 pl-6">
-          <li>Computer Networking Student Assoiciation (CNSA)</li>
+          <li>Computer Networking Student Association (CNSA)</li>
           <li>Slug Fund Investment Group (SFIG)</li>
           <li>Association for Computing Machinery (ACM)</li>
         </ul>

@@ -104,13 +104,11 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 <h3 className='text-xl font-bold text-gray-900 mb-3'>
                   Key Features
                 </h3>
-                <p className='text-gray-700'>
-                  <ul className='list-disc pl-5'>
+                <ul className='list-disc pl-5 text-gray-700'>
                     {project.details.features.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
-                  </ul>
-                </p>
+                </ul>
               </div>
 
               {/* Technologies */}
@@ -118,13 +116,11 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 <h3 className='text-xl font-bold text-gray-900 mb-3'>
                   Technologies Used
                 </h3>
-                <p className='text-gray-700'>
-                  <ul className='list-disc pl-5'>
+                <ul className='list-disc pl-5 text-gray-700'>
                     {project.details.tech.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
-                  </ul>
-                </p>
+                </ul>
               </div>
 
               {/* Achievements */}
@@ -132,13 +128,11 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                 <h3 className='text-xl font-bold text-gray-900 mb-3'>
                   Achievements
                 </h3>
-                <p className='text-gray-700'>
-                  <ul className='list-disc pl-5'>
+                <ul className='list-disc pl-5 text-gray-700'>
                     {project.details.achieve.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
-                  </ul>
-                </p>
+                </ul>
               </div>
 
               {/* Actions */}

@@ -66,10 +66,8 @@ const ProjectItem = ({ project }) => {
     <>
       <motion.div
         className="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3 }}
         whileHover={{ y: -5 }}
+        transition={{ duration: 0.2 }}
       >
         {/* Project Image */}
         <div className="relative aspect-video overflow-hidden">
@@ -114,7 +112,7 @@ const ProjectItem = ({ project }) => {
               </span>
             ))}
             {project.technologies.length > 3 && (
-              <span className="px-2 py-1 text-xs font-medium bg-gray-100 text-gray-800 rounded-md dark:bg-gray-700 dark:text-gray-200">
+              <span className="px-2 py-1 text-xs font-medium bg-gray-100 text-gray-800 rounded-md">
                 +{project.technologies.length - 3}
               </span>
             )}

@@ -3,7 +3,7 @@ import LanguageSkills from './LanguageSkills';
 import FrameworkSkills from './FrameworkSkills';
 import PlatformSkills from './PlatformSkills';
 
-const Skills = ({ title, items }) => {
+const Skills = () => {
   return (
     <section id='skills' className='max-w-[860px] m-auto py-16'>
       <div className='text-center mb-16'>

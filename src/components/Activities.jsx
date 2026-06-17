@@ -1,5 +1,5 @@
 import React from 'react';
-import ActivitiesItem from './ActivitiesItem';
+import TimelineItem from './TimelineItem';
 import clubs from '../data/clubs';
 
 const Activities = () => {
@@ -13,7 +13,7 @@ const Activities = () => {
           </p>
         </div>
       {clubs.map((item, index) => (
-        <ActivitiesItem
+        <TimelineItem
           key={index}
           date={item.date}
           company={item.company}

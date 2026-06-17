@@ -21,12 +21,12 @@ const Main = () => {
           </h1>
 
           <p className='text-lg text-gray-600 leading-relaxed'>
-            A new graduate with experience in software development, API
-            integrations, and product-focused projects through internships,
-            hackathons, and leadership roles. Strong technical foundation in
-            programming with a proven ability to bridge engineering, product,
-            and business needs. Actively seeking full-time software engineering
-            or product-focused opportunities.
+            A software engineer with experience in AI systems, software
+            development, API integrations, and product-focused projects through
+            internships, hackathons, and leadership roles. Strong technical
+            foundation in programming with a proven ability to bridge
+            engineering, product, and business needs. Actively seeking
+            full-time AI engineer or software engineering opportunities.
           </p>
 
           <div className='flex items-center space-x-6 pt-4'>

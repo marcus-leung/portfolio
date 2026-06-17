@@ -113,7 +113,7 @@ const projects = [
       github: "https://github.com/marcus-leung/EthicScope",
       devpost: "https://devpost.com/software/ethicscope",
     },
-    featured: true,
+    featured: false,
     categories: ["web", "hackathon"],
     technologies: ["Next.js", "React.js", "Tailwind CSS", "Flask", "MongoDB", "Cerebras"],
     details: {

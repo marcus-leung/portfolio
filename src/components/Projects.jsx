@@ -12,20 +12,15 @@ const Projects = () => {
 
   const [activeCategory, setActiveCategory] = useState("all")
   const [filteredProjects, setFilteredProjects] = useState([])
-  const [featuredProject, setFeaturedProject] = useState(null)
+  const featuredProjects = projectsData.filter((project) => project.featured)
 
   useEffect(() => {
-    // Filter projects based on active category
     const filtered =
       activeCategory === "all"
         ? projectsData
         : projectsData.filter((project) => project.categories.includes(activeCategory))
 
     setFilteredProjects(filtered)
-
-    // Set featured project
-    const featured = projectsData.find((project) => project.featured)
-    setFeaturedProject(featured)
   }, [activeCategory])
 
   return (
@@ -41,77 +36,65 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Featured Project */}
-        {featuredProject && (
+        {/* Featured Projects */}
+        {featuredProjects.length > 0 && (
           <div className="mb-20">
             <div className="flex items-center mb-8">
-              <h3 className="text-2xl font-bold text-gray-800">Featured Project</h3>
+              <h3 className="text-2xl font-bold text-gray-800">Featured Projects</h3>
               <div className="h-px flex-grow bg-gray-300 ml-4"></div>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div className="relative overflow-hidden rounded-xl aspect-video">
-                <img
-                  src={featuredProject.img || "/placeholder.svg"}
-                  alt={featuredProject.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="space-y-6">
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900">{featuredProject.title}</h3>
-                <p className="text-gray-700 text-lg">{featuredProject.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {featuredProject.technologies.map((tech, index) => (
-                    <span
-                      key={index}
-                      className="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 rounded-full dark:bg-indigo-900 dark:text-indigo-200"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+            <div className="flex flex-col gap-16">
+              {featuredProjects.map((project) => (
+                <div key={project.id} className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                  <div className="relative overflow-hidden rounded-xl aspect-video">
+                    <img
+                      src={project.img || "/placeholder.svg"}
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="space-y-6">
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">{project.title}</h3>
+                    <p className="text-gray-700 text-lg">{project.description}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {project.technologies.map((tech, index) => (
+                        <span
+                          key={index}
+                          className="px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 rounded-full"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="flex flex-wrap gap-4">
+                      {project.links.live && (
+                        <a href={project.links.live} target="_blank" rel="noopener noreferrer"
+                          className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors">
+                          View Live
+                        </a>
+                      )}
+                      {project.links.github && (
+                        <a href={project.links.github} target="_blank" rel="noopener noreferrer"
+                          className="px-6 py-3 bg-gray-200 text-gray-800 font-medium rounded-lg hover:bg-gray-300 transition-colors">
+                          View Code
+                        </a>
+                      )}
+                      {project.links.devpost && (
+                        <a href={project.links.devpost} target="_blank" rel="noopener noreferrer"
+                          className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors">
+                          View on Devpost
+                        </a>
+                      )}
+                      {project.links.paper && (
+                        <a href={project.links.paper} target="_blank" rel="noopener noreferrer"
+                          className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors">
+                          Read Paper
+                        </a>
+                      )}
+                    </div>
+                  </div>
                 </div>
-                <div className="flex flex-wrap gap-4">
-                  {featuredProject.links.live && (
-                    <a
-                      href={featuredProject.links.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors"
-                    >
-                      View Live
-                    </a>
-                  )}
-                  {featuredProject.links.github && (
-                    <a
-                      href={featuredProject.links.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-6 py-3 bg-gray-200 text-gray-800 font-medium rounded-lg hover:bg-gray-300 transition-colors dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
-                    >
-                      View Code
-                    </a>
-                  )}
-                  {featuredProject.links.devpost && (
-                    <a
-                      href={featuredProject.links.devpost}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-                    >
-                      View on Devpost
-                    </a>
-                  )}
-                  {featuredProject.links.paper && (
-                    <a
-                      href={featuredProject.links.paper}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors"
-                    >
-                      Read Paper
-                    </a>
-                  )}
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         )}
@@ -124,20 +107,22 @@ const Projects = () => {
         />
 
         {/* Projects Grid */}
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={activeCategory}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3 }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <AnimatePresence mode="popLayout">
             {filteredProjects.map((project) => (
-              <ProjectItem key={project.id} project={project} />
+              <motion.div
+                key={project.id}
+                layout
+                initial={{ opacity: 0, scale: 0.92 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.92 }}
+                transition={{ duration: 0.2 }}
+              >
+                <ProjectItem project={project} />
+              </motion.div>
             ))}
-          </motion.div>
-        </AnimatePresence>
+          </AnimatePresence>
+        </div>
       </div>
     </section>
   )
