@@ -4,7 +4,7 @@ import jobs from '../data/jobs';
 
 const Work = () => {
   return (
-    <section id='work' className='max-w-[1040px] m-auto p-4 md:py-16 hide'>
+    <section id='work' className='max-w-[1040px] m-auto p-4 md:py-16'>
       <div className='text-center mb-16'>
         <h2 className='text-3xl md:text-4xl font-bold mb-4 text-gray-900'>
           Work Experience

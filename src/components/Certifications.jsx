@@ -22,10 +22,9 @@ const Certifications = () => {
               href='https://www.credly.com/badges/eee23d1a-072f-4c70-9a14-2ad01b01f654'
               target='_blank'
               rel='noopener noreferrer'
+              className='inline-block bg-indigo-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-3'
             >
-              <button className='bg-indigo-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-3'>
-                Show Credentials
-              </button>
+              Show Credentials
             </a>
           </h2>
         </div>
