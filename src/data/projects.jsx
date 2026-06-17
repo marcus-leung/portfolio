@@ -25,7 +25,7 @@ const projects = [
     title: 'CruzHacks 2025: SlugMeditate',
     description:
       'A VR meditation pipeline that transforms user prompts into immersive virtual environments using generative AI and 3D scene mapping.',
-    img: CruzHacks25,
+    img: CruzHacks25.src,
     links: {
       github: 'https://github.com/briankhoi/slugmeditate',
       live: 'https://slugmeditate.tech/',
@@ -69,7 +69,7 @@ const projects = [
     title: 'CruzHacks 2024: SlugHug',
     description:
       'A therapeutic messaging platform designed to foster meaningful and secure communication through sentiment-analyzed messages. It ensures a safe and positive environment for users to connect and interact.',
-    img: CruzHacks24,
+    img: CruzHacks24.src,
     links: {
       github: 'https://github.com/marcus-leung/SlugHug',
       devpost: 'https://devpost.com/software/slughug',
@@ -108,7 +108,7 @@ const projects = [
     title: "HackDavis 2025: EthicScope",
     description:
       "A tool that empowers users to make informed purchasing decisions by scanning products and revealing supply chain ethics, including potential links to child labor, sustainability issues, and other concerns.",
-    img: HackDavis,
+    img: HackDavis.src,
     links: {
       github: "https://github.com/marcus-leung/EthicScope",
       devpost: "https://devpost.com/software/ethicscope",
@@ -144,7 +144,7 @@ const projects = [
     title: 'Slug Fund Investment Group Website',
     description:
       'A simple informative website showcasing club details, events, research papers, and FAQs with a user-friendly interface.',
-    img: SFIG,
+    img: SFIG.src,
     links: {
       github:
         'https://github.com/marcus-leung/Slug-Fund-Investment-Group-Website',
@@ -178,7 +178,7 @@ const projects = [
     title: 'SunnyViews',
     description:
       'A web application that predicts stock and cryptocurrency prices using machine learning. Built with a React.js frontend and FastAPI backend, it provides users with a sleek interface to forecast market trends and visualize predictions, all containerized with Docker and hosted on AWS Fargate.',
-    img: SunnyViewsImage,
+    img: SunnyViewsImage.src,
     links: {},
     featured: false,
     categories: ['web'],
@@ -218,7 +218,7 @@ const projects = [
     title: 'Stock Market Analysis and Visualization Application',
     description:
       'A user-friendly stock market tool to analyze stock prices using various indicators for better decision-making.',
-    img: Stock,
+    img: Stock.src,
     links: {
       github: 'https://github.com/marcus-leung/stockmarketanalysistool',
     },

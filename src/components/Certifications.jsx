@@ -7,7 +7,7 @@ const Certifications = () => {
       <div className='flex flex-col sm:flex-row items-center'>
         <div className='flex ml-5'>
           <img
-            src={CCP}
+            src={CCP.src}
             alt='AWS Certified Cloud Practitioner Badge'
             className='hover:scale-110 transition duration-500'
           />

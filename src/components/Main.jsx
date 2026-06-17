@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import { FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa';
 import { SiDevpost } from "react-icons/si";
@@ -78,7 +80,7 @@ const Main = () => {
             <div className='absolute -top-4 -right-4 w-full h-full bg-gray-100 rounded-3xl -z-10'></div>
 
             <img
-              src={profile || '/placeholder.svg'}
+              src={profile.src}
               alt='Marcus Leung'
               className='rounded-3xl shadow-md border border-gray-200 w-full max-w-md object-cover aspect-square'
             />

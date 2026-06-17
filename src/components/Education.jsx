@@ -15,7 +15,7 @@ const Education = () => {
       <div>
         <div className="flex justify-between items-center flex-col sm:flex-row">
           <div className="flex items-center">
-            <img src={ucsc} alt="UCSC Logo" className="h-10 w-10" />
+            <img src={ucsc.src} alt="UCSC Logo" className="h-10 w-10" />
             <h2 className="text-xl font-semibold pl-2">
               University of California, Santa Cruz
             </h2>
@@ -49,7 +49,7 @@ const Education = () => {
       <div>
         <div className="flex justify-between mt-6 items-center flex-col sm:flex-row">
           <div className="flex items-center">
-            <img src={deanza} alt="De Anza Logo" className="h-9 w-9"/>
+            <img src={deanza.src} alt="De Anza Logo" className="h-9 w-9"/>
             <h2 className="text-xl font-semibold pl-2">De Anza College</h2>
           </div>
           <h3 className="my-1">Jun 2021 - Aug 2022</h3>
