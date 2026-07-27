@@ -5,9 +5,9 @@ const jobs = [
     role: 'DevOps Engineer',
     duration: 'Present',
     details: [
-      '- Developing a RAG-based AI system to automate customer email triage and responses, built on and deployed to Kubernetes',
-      '- Built a production Next.js AI feature for dental practitioners that uses tool calling to query internal APIs and surface relevant data',
-      '- Streamlined internal development workflows by building automations with GitHub Actions and AWS Lambda',
+      '- Designed and developed an AI-powered customer support system using Retrieval-Augmented Generation (RAG) over historical support tickets and internal documentation to draft contextual email responses and streamline support workflows',
+      '- Engineered an AI-driven sales intelligence pipeline integrating Apollo, Tavily, Gemini, and HubSpot to automate lead enrichment, personalized outreach generation, and sales campaign enrollment',
+      '- Containerized, deployed, and maintained internal applications on Kubernetes using Docker, Amazon ECR, ArgoCD, and GitHub Actions while implementing GitOps deployment workflows',
     ]
   },
   {
@@ -16,9 +16,9 @@ const jobs = [
     role: 'HubSpot Integration Intern',
     duration: '5 mos',
     details: [
-      '- Lead integration planning, data mapping, testing, and implementation to enhance HubSpot CRM functionality and support core business operations',
-      '- Built custom HubSpot integrations to sync key data from the company’s dental software product, ensuring centralized and reliable access to up-to-date customer information',
-      '- Designed and implemented custom UI components with HubSpot’s UI Extension SDK to deliver intuitive data visualizations and streamline workflows for internal users'
+      '- Implemented serverless Python data pipelines on AWS Lambda to sync customer usage and product records between production MSSQL/MySQL databases and HubSpot CRM, ensuring real-time data consistency',
+      '- Developed custom front-end UI extensions using HubSpot’s UI Extension SDK, creating embedded data visualizations and interactive dashboards to streamline internal user workflows',
+      '- Architected custom CRM data schemas and object associations, designing property mappings and event-driven workflows to prevent data redundancy and maintain relational integrity across systems',
     ]
   },
   {
